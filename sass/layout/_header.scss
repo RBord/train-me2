@@ -1,0 +1,28 @@
+.header {
+    background-image: url('/images/Gravity-Blanket-Space-Grey.png'),
+    linear-gradient(to right, var(--bgc-color-header) 50%,  rgba(193, 193, 193, .9) 50%,  rgba(193, 193, 193, .9) 100%);
+    background-position: right 103px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__nav {
+    display: flex;
+    .header__list{
+        display: flex;
+        margin-left: auto;
+    }
+}
+.logo{
+    margin-bottom: 114px;
+}
+.main-title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 1.042;
+    color:var(--color-on-darktheme);
+
+    max-width: 477px;
+    margin-left: 173px;
+}
