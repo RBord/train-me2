@@ -12,7 +12,7 @@
   margin-right: auto;
   padding-left: 173px;
   padding-right: 60px;
-  width: 1207px;
+  width: 1440px;
   outline: 2px solid teal;
 }
 
@@ -42,15 +42,18 @@ a {
   color: inherit;
 }
 
-.hero {
-  background-image: url("/images/Gravity-Blanket-Space-Grey.png"), -webkit-gradient(linear, left top, right top, color-stop(50%, var(--bgc-color-header)), color-stop(50%, rgba(193, 193, 193, 0.9)), to(rgba(193, 193, 193, 0.9)));
-  background-image: url("/images/Gravity-Blanket-Space-Grey.png"), linear-gradient(to right, var(--bgc-color-header) 50%, rgba(193, 193, 193, 0.9) 50%, rgba(193, 193, 193, 0.9) 100%);
-  background-position: right 103px;
+.header {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0D1F48), color-stop(50%, transparent), to(transparent)), url("/images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
+  background-image: linear-gradient(to right, #0D1F48 50%, transparent 50%, transparent 100%), url("/images/circles.png"), linear-gradient(270deg, rgba(193, 193, 193, 0.9) -1.53%, rgba(196, 196, 196, 0.22) 100%);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center, top 92px right 16px, center;
+  padding-top: 45px;
+  padding-bottom: 27px;
 }
 
-.hero .button {
+.button {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.429;
@@ -64,7 +67,7 @@ a {
   border-color: transparent;
 }
 
-.hero .button-white {
+.button-white {
   display: block;
   margin-left: auto;
   font-size: 16px;
@@ -72,6 +75,7 @@ a {
   color: #010306;
   font-style: 400;
   padding: 12px 19px;
+  margin-bottom: 0;
   background-color: var(--color-on-darktheme);
   border-color: transparent;
 }
@@ -89,25 +93,51 @@ a {
   margin-left: auto;
 }
 
-.logo {
-  margin-bottom: 114px;
-}
-
-.hero__title {
+.header__title {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 300;
   font-size: 96px;
   line-height: 1.042;
   color: var(--color-on-darktheme);
   max-width: 477px;
-  padding-top: 157px;
   margin-bottom: 30px;
 }
 
-.hero__text {
+.header__text {
   font-size: 18px;
   line-height: 1.5;
   color: #FFFFFF;
   opacity: 0.8;
   max-width: 307px;
   margin-bottom: 68px;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.header__list {
+  margin-bottom: 115px;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.429;
+  color: var(--main-color);
+}
+
+.header__img {
+  position: absolute;
+  top: 2px;
+  right: 52px;
+}
+
+.logo {
+  position: absolute;
+  left: 60px;
+  top: 45px;
+  margin-bottom: 114px;
 }
 /*# sourceMappingURL=main.css.map */
