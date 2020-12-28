@@ -44,8 +44,8 @@ a {
 
 .header {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0D1F48), color-stop(50%, transparent), to(transparent)), url("/images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
-  background-image: linear-gradient(to right, #0D1F48 50%, transparent 50%, transparent 100%), url("/images/circles.png"), linear-gradient(270deg, rgba(193, 193, 193, 0.9) -1.53%, rgba(196, 196, 196, 0.22) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d1f49), color-stop(50%, transparent), to(transparent)), url("../../images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
+  background-image: linear-gradient(to right, #0d1f49 50%, transparent 50%, transparent 100%), url("../../images/circles.png"), linear-gradient(270deg, rgba(193, 193, 193, 0.9) -1.53%, rgba(196, 196, 196, 0.22) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, top 92px right 16px, center;
