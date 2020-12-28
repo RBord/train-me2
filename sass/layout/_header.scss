@@ -83,6 +83,7 @@
 }
 .header__img {
     position: absolute;
+    pointer-events: none;
     right: 52px;
     top: 3px;
 }

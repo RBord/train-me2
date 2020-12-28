@@ -42,6 +42,20 @@ a {
   color: inherit;
 }
 
+.title {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1.094;
+  color: #000000;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
 .header {
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d1f49), color-stop(50%, transparent), to(transparent)), url("../../images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
@@ -130,6 +144,7 @@ a {
 
 .header__img {
   position: absolute;
+  pointer-events: none;
   right: 52px;
   top: 3px;
 }
@@ -139,5 +154,163 @@ a {
   left: 60px;
   top: 45px;
   margin-bottom: 114px;
+}
+
+.benefits {
+  padding-top: 151px;
+  padding-bottom: 95px;
+}
+
+.benefits .title {
+  max-width: 532px;
+  padding-left: 112px;
+  margin-bottom: 29px;
+}
+
+.benefits .text {
+  max-width: 425px;
+  padding-left: 112px;
+  margin-bottom: 147px;
+}
+
+.benefits__link {
+  display: block;
+  margin-bottom: 29px;
+}
+
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits__list .benefits__item {
+  text-align: center;
+}
+
+.benefits__list .benefits__item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.benefits__list .benefits__icon {
+  margin-bottom: 37px;
+}
+
+.benefits__list .benefits__undertitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 19px;
+}
+
+.benefits__list .benefits__deskr {
+  max-width: 320px;
+}
+
+.sleep {
+  padding-top: 151px;
+  padding-bottom: 130px;
+}
+
+.sleep .title {
+  max-width: 307px;
+  margin-bottom: 30px;
+}
+
+.sleep .text {
+  max-width: 307px;
+}
+
+.sleep .wrapper {
+  padding-left: 675px;
+}
+
+.collection {
+  padding-top: 230px;
+  padding-bottom: 274px;
+}
+
+.collection .title {
+  padding-left: 151px;
+}
+
+.collection .collection__text {
+  display: inline-block;
+  padding-left: 300px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 2.333;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.collection .collection__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 88px;
+}
+
+.collection .collection__list .collection__item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.collection .button {
+  padding: 13px 24px;
+  margin-left: 444px;
+  display: block;
+  color: #345764;
+  background-color: transparent;
+  border-color: #345764;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.works {
+  padding-bottom: 284px;
+}
+
+.works .title {
+  max-width: 307px;
+  margin-bottom: 30px;
+}
+
+.works .text {
+  max-width: 308px;
+}
+
+.features {
+  padding-top: 140px;
+  padding-bottom: 411px;
+}
+
+.features a {
+  margin-bottom: 30px;
+}
+
+.features .title {
+  padding-left: 345px;
+  margin-bottom: 126px;
+}
+
+.features .features__text {
+  font-weight: 500;
+  font-size: 288px;
+  line-height: 0.083;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+  opacity: 0.02;
+  margin-bottom: 109px;
+}
+
+.features .image {
+  padding-left: 70px;
 }
 /*# sourceMappingURL=main.css.map */
