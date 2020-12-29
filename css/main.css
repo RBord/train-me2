@@ -56,6 +56,22 @@ a {
   opacity: 0.8;
 }
 
+.block {
+  position: relative;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  outline: 2px solid teal;
+}
+
+.block .block__png {
+  position: absolute;
+  bottom: -161px;
+  right: 0;
+  z-index: -2;
+}
+
 .header {
   position: relative;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d1f49), color-stop(50%, transparent), to(transparent)), url("../../images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
@@ -254,7 +270,6 @@ a {
 
 .collection {
   padding-top: 230px;
-  padding-bottom: 274px;
 }
 
 .collection .title {
@@ -288,6 +303,7 @@ a {
 .collection .button {
   padding: 13px 24px;
   margin-left: 444px;
+  margin-bottom: 0;
   display: block;
   color: #345764;
   background-color: transparent;
@@ -298,6 +314,7 @@ a {
 
 .works {
   padding-bottom: 284px;
+  padding-top: 274px;
 }
 
 .works .title {
@@ -307,6 +324,25 @@ a {
 
 .works .text {
   max-width: 308px;
+}
+
+.works .works__png {
+  position: absolute;
+  bottom: -180px;
+  right: 0;
+}
+
+.works .works__png-second {
+  position: absolute;
+  bottom: -281px;
+  right: 0;
+}
+
+.works {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
 }
 
 .features {
