@@ -1,6 +1,12 @@
 .sleep {
+    position: relative;
+
     padding-top: 151px;
     padding-bottom: 130px;
+    padding-right: 0;
+    padding-left: 0;
+
+    overflow: hidden;
     .title {
         max-width: 307px;
         margin-bottom: 30px;
@@ -9,6 +15,12 @@
         max-width: 307px;
     }
     .wrapper {
-        padding-left: 675px;
+        padding-left: 848px;
+    }
+    .sleep__png {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 }

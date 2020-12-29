@@ -1,0 +1,40 @@
+.whenever {
+    position: relative;
+    display: flex;
+
+    padding-top: 41px;
+    padding-bottom: 178px;
+    padding-left: 0;
+    padding-right: 0;
+
+    .whenever__img {
+        position: absolute;
+        top: -114px;
+        left: 96px;
+        width: 645px;
+        height: 633px;
+    }
+    .whenever_png {
+        position: absolute;
+        top: 221px;
+        right: 10px;
+    }
+}
+.whenever__right {
+    .title {
+        max-width: 420px;
+        margin-left: 848px;
+        margin-bottom: 30px;
+    }
+    .text {
+        max-width: 307px;
+        margin-left: 848px;
+        margin-bottom: 65px;
+    }
+    .whenever__list {
+        margin-left: 849px;
+        .whenever__item:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}

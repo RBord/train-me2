@@ -1,4 +1,6 @@
 .benefits {
+    position: relative;
+
     padding-top: 151px;
     padding-bottom: 95px;
     
@@ -12,6 +14,17 @@
         padding-left: 112px;
         margin-bottom: 147px;
     }
+    .benefits_png {
+        position: absolute;
+        top: 0;
+        right: 110px;
+
+    }
+    .benefits__bg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 }
 .benefits__link {
     display: block;
@@ -20,6 +33,7 @@
 .benefits__list {
     display: flex;
     align-items: center;
+
     .benefits__item {
         text-align: center;
     }
