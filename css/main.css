@@ -340,7 +340,7 @@ a {
 
 .works {
   position: relative;
-  padding-left: 0;
+  padding-left: 173px;
   padding-right: 0;
   overflow: hidden;
 }
@@ -426,13 +426,11 @@ a {
 
 .whenever {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 41px;
   padding-bottom: 178px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 172px;
+  padding-right: 172px;
+  background-color: rgba(241, 241, 243, 0.5);
 }
 
 .whenever .whenever__img {
@@ -449,23 +447,190 @@ a {
   right: 10px;
 }
 
+.whenever a {
+  font-size: 16px;
+  line-height: 1.437;
+  text-transform: uppercase;
+  color: #1C397D;
+}
+
 .whenever__right .title {
   max-width: 420px;
-  margin-left: 848px;
+  margin-left: 676px;
   margin-bottom: 30px;
 }
 
 .whenever__right .text {
   max-width: 307px;
-  margin-left: 848px;
+  margin-left: 676px;
   margin-bottom: 65px;
 }
 
 .whenever__right .whenever__list {
-  margin-left: 849px;
+  margin-left: 676px;
+  margin-bottom: 178px;
 }
 
 .whenever__right .whenever__list .whenever__item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.whenever__right .whenever__list .whenever__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whenever__right .whenever__list .whenever__icon-bg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-right: 19px;
+}
+
+.whenever__block-first {
+  position: relative;
+  width: 1096px;
+  height: 611px;
+  margin-top: 30px;
+  padding: 31px 421px 31px 113px;
+  background-color: white;
+}
+
+.whenever__block-first .title {
+  margin-bottom: 44px;
+}
+
+.whenever__block-first .undertitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 29px;
+}
+
+.whenever__block-first .text {
+  max-width: 313px;
+  margin-bottom: 29px;
+}
+
+.whenever__block-first .block-first-img {
+  position: absolute;
+  top: 31px;
+  right: 30px;
+  width: 467px;
+  height: 481px;
+}
+
+.whenever__block-first-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.whenever__block-first-list .button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.whenever__block-first-list p {
+  color: #000000;
+}
+
+.whenever__block-first-list .list-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.whenever__block-first-list .list-left .list-left-item {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: rgba(156, 156, 161, 0.76);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.whenever__block-first-list .list-left .list-left-item-second {
+  background-color: transparent;
+}
+
+.whenever__block-first-list .list-left .list-left-item-third {
+  background-color: #4F74C2;
+}
+
+.whenever__block-first-list .list-left .list-left-item:hover,
+.whenever__block-first-list .list-left .list-left-item:focus {
+  border: 1px solid #345764;
+}
+
+.whenever__block-first-list .list-left .list-left-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.whenever__block-first-list .text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.whenever__block-first-list .list-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.whenever__block-first-list .list-right .list-right-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.whenever__block-first-list .list-right .list-right-item p {
+  font-size: 11px;
+  line-height: 2.182;
+  text-align: center;
+  color: #000000;
+}
+
+.whenever__block-first-list .list-right .list-right-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.whenever__block-first-list .list-right .list-right-item:hover,
+.whenever__block-first-list .list-right .list-right-item:focus {
+  border: 1px solid #345764;
+}
+
+.whenever__block-first-list .block-item .button-transparent {
+  padding: 13px 30px;
+  border-color: #345764;
+  background-color: transparent;
+  color: #345764;
+}
+
+.whenever__block-first-list .block-item:not(:last-child) {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */
