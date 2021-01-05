@@ -427,9 +427,9 @@ a {
 .whenever {
   position: relative;
   padding-top: 41px;
-  padding-bottom: 178px;
-  padding-left: 172px;
-  padding-right: 172px;
+  padding-bottom: 1460px;
+  padding-left: 96px;
+  padding-right: 96px;
   background-color: rgba(241, 241, 243, 0.5);
 }
 
@@ -452,22 +452,23 @@ a {
   line-height: 1.437;
   text-transform: uppercase;
   color: #1C397D;
+  padding-left: 77px;
 }
 
 .whenever__right .title {
   max-width: 420px;
-  margin-left: 676px;
+  margin-left: 752px;
   margin-bottom: 30px;
 }
 
 .whenever__right .text {
   max-width: 307px;
-  margin-left: 676px;
+  margin-left: 752px;
   margin-bottom: 65px;
 }
 
 .whenever__right .whenever__list {
-  margin-left: 676px;
+  margin-left: 752px;
   margin-bottom: 178px;
 }
 
@@ -493,10 +494,11 @@ a {
 }
 
 .whenever__block-first {
-  position: relative;
+  position: absolute;
+  top: 739px;
+  left: 172px;
   width: 1096px;
   height: 611px;
-  margin-top: 30px;
   padding: 31px 421px 31px 113px;
   background-color: white;
 }
@@ -632,5 +634,108 @@ a {
 
 .whenever__block-first-list .block-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.whenever__block-second {
+  position: absolute;
+  top: 1512px;
+  left: 96px;
+  padding: 284px 720px 80px 76px;
+  width: 1248px;
+  height: 700px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0D1F48), color-stop(50%, transparent), to(transparent)), url("../../images/bad.jpg");
+  background-image: linear-gradient(to right, #0D1F48 50%, transparent 50%, transparent 100%), url("../../images/bad.jpg");
+}
+
+.whenever__block-second .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.094;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+
+.whenever__block-second .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-bottom: 29px;
+}
+
+.whenever__block-second .button {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+}
+
+.faq {
+  padding-top: 183px;
+  padding-bottom: 140px;
+}
+
+.faq a {
+  font-size: 16px;
+  line-height: 1.437;
+  text-transform: uppercase;
+  color: #1C397D;
+  margin-bottom: 30px;
+}
+
+.faq .title {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1.094;
+  padding-left: 113px;
+  margin-bottom: 72px;
+}
+
+.faq .undertitle {
+  font-size: 36px;
+  line-height: 1.444;
+  font-weight: 300;
+  padding-left: 113px;
+  margin-bottom: 15px;
+}
+
+.faq .text {
+  padding-left: 113px;
+  max-width: 975px;
+  margin-bottom: 45px;
+  display: none;
+}
+
+.undertitle::before {
+  content: " ";
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border: solid 1px #345764;
+  border-radius: 50%;
+  background-image: url(../../images/plus.svg);
+  background-size: 14.33px 14.33px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 33px;
+  cursor: pointer;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.undertitle:hover::before,
+.undertitle:focus::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border: transparent;
+}
+
+.undertitle:hover + .text,
+.undertitle:focus + .text {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
