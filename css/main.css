@@ -706,7 +706,7 @@ a {
   display: none;
 }
 
-.undertitle::before {
+.faq .undertitle::before {
   content: " ";
   display: inline-block;
   width: 38px;
@@ -727,15 +727,104 @@ a {
           transition-duration: 500ms;
 }
 
-.undertitle:hover::before,
-.undertitle:focus::before {
+.faq .undertitle:hover::before,
+.faq .undertitle:focus::before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   border: transparent;
 }
 
-.undertitle:hover + .text,
-.undertitle:focus + .text {
+.faq .undertitle:hover + .text,
+.faq .undertitle:focus + .text {
   display: block;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #0D1F48;
+  padding-top: 56px;
+  padding-left: 61px;
+  padding-right: 160px;
+  padding-bottom: 64px;
+}
+
+.footer .logo {
+  position: static;
+  top: 56px;
+  left: 61px;
+}
+
+.footer .logo__icon {
+  margin-bottom: 66px;
+  margin-right: 187px;
+}
+
+.footer .footer__undertitle {
+  margin-bottom: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.167;
+  color: #FFFFFF;
+}
+
+.footer .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer .footer__wrapper:nth-child(2) {
+  margin-right: 142px;
+}
+
+.footer .footer__wrapper:nth-child(3) {
+  margin-right: 173px;
+}
+
+.footer .footer__wrapper-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer .footer__undertitle-mb {
+  margin-bottom: 30px;
+}
+
+.footer__wrapper a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.167;
+  color: #FFFFFF;
+}
+
+.footer__wrapper-form ::-webkit-input-placeholder {
+  background-color: #0D1F48;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__wrapper-form :-ms-input-placeholder {
+  background-color: #0D1F48;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__wrapper-form ::-ms-input-placeholder {
+  background-color: #0D1F48;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__wrapper-form ::placeholder {
+  background-color: #0D1F48;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
