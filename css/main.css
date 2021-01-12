@@ -13,7 +13,6 @@
   padding-left: 173px;
   padding-right: 60px;
   width: 1440px;
-  outline: 2px solid teal;
 }
 
 body {
@@ -62,7 +61,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  outline: 2px solid teal;
 }
 
 .block .block__png {
@@ -74,8 +72,8 @@ a {
 
 .header {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d1f49), color-stop(50%, transparent), to(transparent)), url("../../images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
-  background-image: linear-gradient(to right, #0d1f49 50%, transparent 50%, transparent 100%), url("../../images/circles.png"), linear-gradient(270deg, rgba(193, 193, 193, 0.9) -1.53%, rgba(196, 196, 196, 0.22) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d1f49), color-stop(50%, transparent), to(transparent)), url("../images/circles.png"), -webkit-gradient(linear, right top, left top, color-stop(-1.53%, rgba(193, 193, 193, 0.9)), to(rgba(196, 196, 196, 0.22)));
+  background-image: linear-gradient(to right, #0d1f49 50%, transparent 50%, transparent 100%), url("../images/circles.png"), linear-gradient(270deg, rgba(193, 193, 193, 0.9) -1.53%, rgba(196, 196, 196, 0.22) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, top 92px right 16px, center;
@@ -643,8 +641,8 @@ a {
   padding: 284px 720px 80px 76px;
   width: 1248px;
   height: 700px;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0D1F48), color-stop(50%, transparent), to(transparent)), url("../../images/bad.jpg");
-  background-image: linear-gradient(to right, #0D1F48 50%, transparent 50%, transparent 100%), url("../../images/bad.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #0D1F48), color-stop(50%, transparent), to(transparent)), url("../images/bad.jpg");
+  background-image: linear-gradient(to right, #0D1F48 50%, transparent 50%, transparent 100%), url("../images/bad.jpg");
 }
 
 .whenever__block-second .title {
@@ -713,7 +711,7 @@ a {
   height: 38px;
   border: solid 1px #345764;
   border-radius: 50%;
-  background-image: url(../../images/plus.svg);
+  background-image: url(../images/plus.svg);
   background-size: 14.33px 14.33px;
   background-repeat: no-repeat;
   background-position: center;
@@ -826,5 +824,32 @@ a {
   background-color: #0D1F48;
   border-color: transparent;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__wrapper-form .footer__undertitle {
+  margin-bottom: 30px;
+}
+
+.footer__wrapper-form .box {
+  position: relative;
+}
+
+.footer__wrapper-form .box input {
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  background-color: transparent;
+  width: 320px;
+  height: 46px;
+  padding: 8px;
+}
+
+.footer__wrapper-form .box button {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
